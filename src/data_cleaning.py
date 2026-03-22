@@ -1,7 +1,6 @@
 # %%
 
 import pandas as pd
-import matplotlib.pyplot as plt
 
 df_without_degradation = pd.read_excel("../data/raw/inpe_EM_BRAmz_results.xlsx", sheet_name="Sem degracação", skiprows=10)
 
