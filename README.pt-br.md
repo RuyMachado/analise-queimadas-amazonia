@@ -1,22 +1,25 @@
-# Análise de Queimadas na Amazônia
+# Análise de Desmatamento e Emissões de Carbono na Amazônia
 
 Este projeto analisa as emissões de carbono associadas ao desmatamento por corte raso na Amazônia Brasileira, com base em dados do PRODES (INPE).
 
-O foco está na compreensão da evolução das emissões ao longo do tempo e seu impacto no ciclo de carbono
+O foco está na compreensão da evolução das emissões ao longo do tempo e seu impacto no ciclo de carbono.
 
 
 ## 📊 Tipos de Emissões
 
 ### 🔹 Emissões de 1ª Ordem
-- As emissões de 1ª ordem consideram que todo o carbono da vegetação é liberado imediatamente no ano do desmatamento, refletindo diretamente as variações anuais e apresentando maior sensibilidade a picos e quedas.
+- Consideram que todo o carbono da vegetação é liberado imediatamente no ano do desmatamento  
+- Refletem diretamente as variações anuais  
+- Maior sensibilidade a picos e quedas  
 
 ### 🔹 Emissões de 2ª Ordem
-- As emissões de 2ª ordem consideram que o carbono é liberado de forma gradual ao longo do tempo, incorporando processos como a decomposição da biomassa, o que resulta em uma representação mais estável e realista da dinâmica do carbono.
+- Consideram a liberação gradual do carbono ao longo do tempo  
+- Incorporam processos como decomposição da biomassa  
+- Representação mais estável e realista da dinâmica do carbono  
 
 
 ## 📥 Fonte dos Dados
 - PRODES / INPE  
-
 
 
 ## 🛠️ Tecnologias Utilizadas
@@ -26,14 +29,16 @@ O foco está na compreensão da evolução das emissões ao longo do tempo e seu
 
 
 ## 📈 Análises Realizadas
-- Evolução temporal das emissões  
-- Comparação entre 1ª e 2ª ordem  
-- Identificação de padrões ao longo dos anos  
+
+- Evolução do desmatamento ao longo do tempo  
+- Evolução das emissões de carbono  
+- Comparação entre cenários com e sem degradação  
+- Relação entre desmatamento e emissões de carbono  
+- Análise de escala e unidades (km² vs hectares)  
 
 
-## Análise da Evolução das Emissões Brutas por Desmatamento Corte Raso na Amazônia (2002–2020)
+## Análise do Desmatamento e Emissões na Amazônia (1960–2020)
 
 <p align="left">
   <img src="images/emissoes_brutas_amz.png" width="800"/>
 </p>
-
