@@ -1,5 +1,12 @@
 # Amazon Deforestation and Carbon Emissions Analysis
 
+<p align="center">
+  🇺🇸 English •
+  <a href="README.pt-br.md">🇧🇷 Português</a>
+</p>
+
+---
+
 This project analyzes carbon emissions associated with clear-cut deforestation in the Brazilian Amazon, based on PRODES (INPE) data.
 
 The focus is on understanding the evolution of emissions over time and their impact on the carbon cycle.
