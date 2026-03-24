@@ -1,5 +1,11 @@
 # Análise de Desmatamento e Emissões de Carbono na Amazônia
 
+<p align="center">
+  <a href="README.md">🇺🇸 English</a> •
+  🇧🇷 Português
+</p>
+
+---
 Este projeto analisa as emissões de carbono associadas ao desmatamento por corte raso na Amazônia Brasileira, com base em dados do PRODES (INPE).
 
 O foco está na compreensão da evolução das emissões ao longo do tempo e seu impacto no ciclo de carbono.
