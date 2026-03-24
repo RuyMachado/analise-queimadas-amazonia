@@ -1,39 +1,47 @@
-# Análise de Queimadas na Amazônia
+# Amazon Deforestation and Carbon Emissions Analysis
 
-Este projeto analisa as emissões de carbono associadas ao desmatamento por corte raso na Amazônia Brasileira, com base em dados do PRODES (INPE).
+<p align="center">
+  🇺🇸 English •
+  <a href="README.pt-br.md">🇧🇷 Português</a>
+</p>
 
-O foco está na compreensão da evolução das emissões ao longo do tempo e seu impacto no ciclo de carbono
+---
 
+This project analyzes carbon emissions associated with clear-cut deforestation in the Brazilian Amazon, based on PRODES (INPE) data.
 
-## 📊 Tipos de Emissões
-
-### 🔹 Emissões de 1ª Ordem
-- As emissões de 1ª ordem consideram que todo o carbono da vegetação é liberado imediatamente no ano do desmatamento, refletindo diretamente as variações anuais e apresentando maior sensibilidade a picos e quedas.
-
-### 🔹 Emissões de 2ª Ordem
-- As emissões de 2ª ordem consideram que o carbono é liberado de forma gradual ao longo do tempo, incorporando processos como a decomposição da biomassa, o que resulta em uma representação mais estável e realista da dinâmica do carbono.
+The focus is on understanding the evolution of emissions over time and their impact on the carbon cycle.
 
 
-## 📥 Fonte dos Dados
+## 📊 Emission Types
+
+### 🔹 First-Order Emissions
+- First-order emissions assume that all carbon stored in vegetation is released immediately in the year of deforestation, directly reflecting annual variations and showing higher sensitivity to peaks and drops.
+
+### 🔹 Second-Order Emissions
+- Second-order emissions assume that carbon is released gradually over time, incorporating processes such as biomass decomposition. This results in a more stable and realistic representation of carbon dynamics.
+
+
+## 📥 Data Source
 - PRODES / INPE  
 
 
-
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 - Python  
 - Pandas  
 - Matplotlib / Seaborn  
 
 
-## 📈 Análises Realizadas
-- Evolução temporal das emissões  
-- Comparação entre 1ª e 2ª ordem  
-- Identificação de padrões ao longo dos anos  
+## 📈 Analyses Performed
+
+- Deforestation trend over time  
+- Carbon emissions evolution  
+- Comparison between scenarios with and without degradation  
+- Relationship between deforestation and emissions  
+- Scale and unit analysis (km² vs hectares)  
 
 
-## Análise da Evolução das Emissões Brutas por Desmatamento Corte Raso na Amazônia (2002–2020)
+## Analysis of Deforestation and Emissions in the Amazon (1960–2020)
 
 <p align="left">
   <img src="images/emissoes_brutas_amz.png" width="800"/>
 </p>
-
