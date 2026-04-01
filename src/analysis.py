@@ -36,9 +36,9 @@ def extremes_deforestation_without_degradation(df_grouped_deforestation_whithout
     min_row = df_grouped_deforestation_whithout_degradation.loc[df_grouped_deforestation_whithout_degradation["D_Area"].idxmin()]
 
     max_year_deforestation_without_degradation, max_value_deforestation_without_degradation = max_row["Year"], max_row["D_Area"]/1_000_000
-    min_year_deforestation_without_degradatopm, min_value_deforestation_without_degradation = min_row["Year"], min_row["D_Area"]/1_000_000
+    min_year_deforestation_without_degradation, min_value_deforestation_without_degradation = min_row["Year"], min_row["D_Area"]/1_000_000
 
-    return max_year_deforestation_without_degradation, max_value_deforestation_without_degradation, min_year_deforestation_without_degradatopm, min_value_deforestation_without_degradation
+    return max_year_deforestation_without_degradation, max_value_deforestation_without_degradation, min_year_deforestation_without_degradation, min_value_deforestation_without_degradation
 
 
 # Find Max and Min Carbon Emission Without Degradation
@@ -201,7 +201,7 @@ def main():
     df_grouped_carbon_emission_with_degradation = aggregation_carbon_emission_with_degradation(df_with_degradation)
 
     # extremes
-    max_year_deforestation_without_degradation, max_value_deforestation_without_degradation, min_year_deforestation_without_degradatopm, min_value_deforestation_without_degradation = extremes_deforestation_without_degradation(df_grouped_deforestation_whithout_degradation)
+    max_year_deforestation_without_degradation, max_value_deforestation_without_degradation, min_year_deforestation_without_degradation, min_value_deforestation_without_degradation = extremes_deforestation_without_degradation(df_grouped_deforestation_whithout_degradation)
     
     max_year_carbon_emission_without_degradation, max_value_carbon_emission_without_degradation, min_year_carbon_emission_without_degradation, min_value_carbon_emission_without_degradation = extremes_carbon_emission_without_degradation(df_grouped_carbon_emission_without_degradation)
 
@@ -209,7 +209,7 @@ def main():
     max_year_carbon_emission_with_degradation, max_value_carbon_emission_with_degradation, min_year_carbon_emission_with_degradation, min_value_carbon_emission_with_degradation = extremes_carbon_emission_with_degradation(df_grouped_carbon_emission_with_degradation)
 
     # plot 
-    plot_graphic_deforestation_without_degradation(df_grouped_deforestation_whithout_degradation, max_year_deforestation_without_degradation, max_value_deforestation_without_degradation, min_year_deforestation_without_degradatopm, min_value_deforestation_without_degradation)
+    plot_graphic_deforestation_without_degradation(df_grouped_deforestation_whithout_degradation, max_year_deforestation_without_degradation, max_value_deforestation_without_degradation, min_year_deforestation_without_degradation, min_value_deforestation_without_degradation)
 
     plot_graphic_carbon_emission_without_degradation(df_grouped_carbon_emission_without_degradation, max_year_carbon_emission_without_degradation, max_value_carbon_emission_without_degradation, min_year_carbon_emission_without_degradation, min_value_carbon_emission_without_degradation)
 
